@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col l12 light">
                     <h3 class="header center">Visi</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolor dolore. Et in magni ea libero, illum atque debitis tempore iusto ex alias ullam accusantium eaque exercitationem minima vero sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, eum. Recusandae, voluptates similique dolores incidunt autem quas esse dignissimos ad amet ratione nihil facilis ipsum sapiente ipsa odit cum iure. lor</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolor dolore. Et in magni ea libero, illum atque debitis tempore iusto ex alias ullam accusantium eaque exercitationem minima vero sequi. Disini koa Losat sit amet consectetur adipisicing elit. Beatae, eum. Recusandae, voluptates similique dolores incidunt autem quas esse dignissimos ad amet ratione nihil facilis ipsum sapiente ipsa odit cum iure. lor</p>
                 </div>
                 <div class="col l12 light">
                     <h3 class="header center">Misi</h3>

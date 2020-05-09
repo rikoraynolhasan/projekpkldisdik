@@ -150,7 +150,7 @@
           </div>
           <div class="col m12 s12 l6 light">
             <h5>Profil Singkat</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas molestias sit aut optio aliquam natus? Accusamus, reiciendis harum eos provident delectus voluptatem! Officia ducimus quo deserunt alias aspernatur, ut tempore. Fugit nisi aperiam harum laborum deserunt minima cupiditate quasi debitis deleniti itaque dolor rerum, sequi numquam voluptate quia possimus distinctio nesciunt sunt. Praesentium molestiae est assumenda facilis reiciendis, odio nobis labore fugit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas molestias sit aut optio aliquam natus? Accusamus, reiciendis harum eos provident delectus voluptatem! Officia ducimus quo deserunt alias aspernatur, ut tempore. Fugit nisi aperiam harum laborum deserunt minima cupiditate quasi debitis deleniti itaque dolor rerum, sequi numquam voluptate quia possimus distinctio nesciunt sunt. Praesentium molestiae est assumenda facilis reiciendis, doo dolo asak minaro.</p>
             <a href="/profil" class="waves-effect waves-light btn center right">Selengkapnya</a> 
           </div>
         </div>
