@@ -1,0 +1,294 @@
+h1, h2, h3, h4, h5{
+    font-family: 'Zilla Slab', Arial, serif; 
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+hr{
+    border-bottom: .05em solid #555;
+}
+
+.tgl{
+    font-size: .8em;
+    color: rgb(117, 126, 0);
+    margin-top: 0px !important;
+}
+
+nav{
+    height: 100px;
+    background-color: rgba(90, 212, 110, 0.733);
+    font-family: 'Zilla Slab', Arial, serif;
+}
+nav ul{
+    height: 100px;
+}
+nav ul li{
+    height: 100%;
+}
+nav ul li:hover{
+    background-color:  rgba(90, 212, 110, 0.267);
+    border-bottom: 1px solid white;
+}
+nav ul li a{
+    margin-top: 17px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #000;
+    font-size: 1.2em;
+}
+nav ul li a:hover{
+   background-color:  rgba(255, 255, 255, 0);
+}
+body{
+    height: 1px;
+}
+
+.dropdown-content{
+    overflow: visible;
+    background-color: rgba(240, 248, 255, 0);
+    box-shadow: 0 0 0  rgba(240, 248, 255, 0);
+}
+.dropdown-content li{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-bottom: 1px #ddd solid;
+    box-shadow: 8px 2px 10px -4px rgba(0,0,0,0.75);
+}
+
+.dropdown-content li a{
+    color: black;
+    text-shadow: none;
+}
+
+.sli{
+    margin-top: -65px;
+}
+
+.sli h3{
+    text-shadow: 1px 1px 1px black;
+    font-size: 35px;
+}
+
+
+.btn-large{
+    border-radius: 15px;
+}
+
+
+/* bagian berita */
+
+.berita{
+    margin-top: 20px;
+    background-color: rgb(194, 255, 204)
+    
+}
+
+.header{
+    border-left: 1px solid #555;
+    padding-left: 5px;
+}
+
+.berita .sli2 .card{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.berita .sli2 h4{
+    margin-top: 60px; 
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.berita .sli2 .card .isi{
+    
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    margin: 5px !important;
+    font-size: 11px ;
+    color: #000 !important;
+
+}
+
+.berita .sli2 .card .tgl{
+    color: rgb(0, 78, 0) !important;
+}
+
+.berita .sli2 .card-action{
+    font-size: 11px;
+    padding: 5px;
+}
+
+
+
+
+/* .berita span{
+    font-size: 10px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    text-shadow: 1px 1px 1px black;
+} */
+
+
+
+.berita-lama .card-content, .berita .card-content{
+    padding: 5px !important;
+}
+
+.berita-lama .card-image{
+    height: 100px 
+    !important;
+    width: 100px !important;
+}
+
+.berita-lama .card{
+    height: 100px !important;
+}
+
+.berita-lama .card-action{
+    padding: 5px !important;
+    font-size: 10px !important;
+}
+
+
+
+.berita-lama .card-content p.judulb{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+
+/* profile */
+
+
+/* galeri */
+
+
+section{
+    margin-left: -10px;
+    padding: 0;
+}
+
+.galeri{
+    margin-top: 40px;
+}
+.galeri img{
+    float: left;
+    margin: 10px;
+    box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+
+.galeri .video-container{
+    box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    margin-top: 20px;
+}
+.galeri .parallax-container{
+    height: 50%;
+}
+
+.galeri .parallax-container .parallax img{
+    filter: opacity(30%) grayscale(50%) ;
+}
+
+/* kontak */
+
+.kontak .link a{
+ color: #ff6f00;   
+}
+
+.kontak .link a:hover{
+    color:#ffb300;
+}
+
+.kontak .link .hr-2{
+     border-bottom: 1px solid #ddd;   
+}
+
+/* footer */
+
+footer{
+
+}
+
+footer p{
+    color: #ddd;
+    padding: 15px;
+}
+
+/* desktop version */
+@media (min-width: 992px){
+    .slider h3{
+        font-size: 60px;
+    }
+    .berita span{
+        font-size: 20px !important;
+    }
+
+    .berita .sli2 .card .isi{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        
+        margin: 5px !important;
+        font-size: 14px ;
+        color: #000 !important;
+    }
+
+    .berita .sli2 h4{
+        font-size: 35px;
+    }
+    
+    .berita .sli2 .card-action{
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .galeri .video-container{
+        margin-top: 110px;
+    }
+    
+}
+
+
+
+/* 
+
+.berita .imgbaru{
+    float: left;
+    padding: 15px;
+    
+    border-radius: 30%;
+}
+
+.berita .paragraf{
+    font-family: 'Times New Roman', Times, serif;
+}
+.berita h3{
+    color: #555;
+    border-left: 1px solid rgb(0, 163, 27);
+    padding-left: 30px;
+}
+
+
+
+.berita-lama .imglama{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+
+.berita-lama h5{
+    font-weight: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.clear{
+    clear: both;
+} */
