@@ -46,6 +46,7 @@ class EmployeeController extends AppBaseController
     public function create()
     {
         $gtk = Gtk::pluck('gtk','id');
+       
         return view('employees.create', compact('gtk'));
     }
 

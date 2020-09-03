@@ -55,7 +55,7 @@
                             <!-- Menu Toggle Button -->
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <!-- The user image in the navbar-->
-                                <img src="img/foto-profil/profil.png"
+                                <img src="{{asset('img/foto-profil/profil.png')}}"
                                      class="user-image" alt="User Image"/>
                                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
                                 <span class="hidden-xs">{{ Auth::user()->name }}</span>
@@ -63,7 +63,7 @@
                             <ul class="dropdown-menu">
                                 <!-- The user image in the menu -->
                                 <li class="user-header" style="background-color: rgb(102, 214, 121)">
-                                    <img src="img/foto-profil/profil.png"
+                                    <img src="{{asset('img/foto-profil/profil.png')}}"
                                          class="img-circle" alt="User Image"/>
                                     <p>
                                         {{ Auth::user()->name }}

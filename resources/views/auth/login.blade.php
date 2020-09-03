@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>InfyOm Laravel Generator</title>
+    <title>Login Web GTK Dinas Pendidikan Kota Samarinda</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -32,16 +32,17 @@
     <![endif]-->
 
 </head>
-<body class="hold-transition login-page">
+<body class="hold-transition login-page" style="background-color:#84db79;">
 <div class="login-box">
     <div class="login-logo">
-        <a href="{{ url('/home') }}"><b>InfyOm </b>Generator</a>
+        <a href="{{ url('/home') }}"><b> </b></a>
     </div>
 
     <!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">Sign in to start your session</p>
-
+        <div style="text-align:center"><img src="img/logo-Pemkot.png" height="80px" style=""></div>
+        
+        <p class="login-box-msg" style="margin-top:20px;">Silahkan masukan password dan alamat email</p>
         <form method="post" action="{{ url('/login') }}">
             @csrf
 
@@ -75,14 +76,13 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-xs-4">
-                    <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                    <button type="submit" class="btn btn-success btn-block btn-flat">Sign In</button>
                 </div>
                 <!-- /.col -->
             </div>
         </form>
 
-        <a href="{{ url('/password/reset') }}">I forgot my password</a><br>
-        <a href="{{ url('/register') }}" class="text-center">Register a new membership</a>
+        <a class="text-success" href="{{ url('/password/reset') }}">I forgot my password</a><br>
 
     </div>
     <!-- /.login-box-body -->

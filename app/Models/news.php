@@ -32,7 +32,8 @@ class news extends Model
         'judul_artikel',
         'artikel',
         'tanggal',
-        'gambar'
+        'gambar',
+        'kategori'
     ];
 
     /**
@@ -45,7 +46,8 @@ class news extends Model
         'judul_artikel' => 'string',
         'artikel' => 'string',
         'tanggal' => 'date',
-        'gambar' => 'string'
+        'gambar' => 'string',
+        'kategori' => 'string'
     ];
 
     /**

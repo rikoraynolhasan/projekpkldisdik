@@ -16,6 +16,13 @@
     {!! Form::date('tanggal', null, ['class' => 'form-control','id'=>'tanggal']) !!}
 </div>
 
+<!-- Tanggal Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('kategori', 'Kategori:') !!}
+    {!! Form::select('kategori', ['Berita'=>'Berita', 'Pengumuman'=>'Pengumuman', 'Kegiatan'=>'Kegiatan'], null, ['class' => 'form-control','id'=>'kategori']) !!}
+</div>
+
+
 @push('scripts')
     <script type="text/javascript">
         $('#tanggal').datetimepicker({

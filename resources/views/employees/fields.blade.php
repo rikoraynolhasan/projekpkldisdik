@@ -2,6 +2,7 @@
 <div class="form-group col-sm-6">
     {!! Form::label('id_gtk', 'Id Gtk:') !!}
     {!! Form::select('id_gtk', $gtk, null, ['class' => 'form-control']) !!}
+    <?php echo $gtk ?>
 </div>
 
 <!-- Nama Field -->

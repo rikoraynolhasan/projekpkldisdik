@@ -5,6 +5,7 @@
                 <th>Judul Artikel</th>
         <th>Artikel</th>
         <th>Tanggal</th>
+        <th>Kategori</th>
         <th>Gambar</th>
                 <th colspan="3">Action</th>
             </tr>
@@ -12,9 +13,10 @@
         <tbody>
         @foreach($news as $news) 
             <tr>
-                <td>{{ $news->judul_artikel }}</td>
+            <td>{{ $news->judul_artikel }}</td>
             <td>{{ $news->artikel }}</td>
             <td>{{ $news->tanggal }}</td>
+            <td>{{ $news->kategori}}</td>
             <td><img src="{{ $news->gambar }}" alt="{{ $news->gambar }}" height="50"></td>
                 <td>
                     {!! Form::open(['route' => ['news.destroy', $news->id], 'method' => 'delete']) !!}

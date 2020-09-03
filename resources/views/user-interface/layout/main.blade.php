@@ -18,7 +18,7 @@
     </head>
     <body>
        <!-- awal navbar -->
-      @yield('navbar')
+    @yield('navbar')
       
        
 

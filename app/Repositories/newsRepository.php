@@ -22,7 +22,8 @@ class newsRepository extends BaseRepository
         'judul_artikel',
         'artikel',
         'tanggal',
-        'gambar'
+        'gambar',
+        'kategori'
     ];
 
     /**

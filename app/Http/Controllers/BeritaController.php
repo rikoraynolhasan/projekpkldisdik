@@ -51,8 +51,7 @@ class BeritaController extends Controller
     public function show($id)
     {
         $berita = news::find($id);
-        
-        return view('user-interface.berita.show')->with('berita', $berita);
+        return view('user-interface.berita.tes')->with('berita', $berita);
         // return view('user-interface.berita.show', compact('berita'));
         
         //

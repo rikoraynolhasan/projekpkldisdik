@@ -15,7 +15,7 @@
              <li><a href="/galeri">Galeri</a></li>
            </ul>
            <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="/kontak">Kontak</a></li>
+            <li><a href="/">Kontak</a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">GTK<i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
           </div>
@@ -35,10 +35,10 @@
      </ul>
       <!-- sidenav -->
       <ul class="sidenav" id="mobile-nav">
-         <li><a href="#berita">Berita</a></li>
-         <li><a href="#profil">Profil</a></li>
-         <li><a href="#galeri">Galeri</a></li>
-         <li><a href="#kontak">Kontak</a></li>
+         <li><a href="/berita">Berita</a></li>
+         <li><a href="/tentang">Tentang</a></li>
+         <li><a href="/galeri">Galeri</a></li>
+         <li><a href="/">Kontak</a></li>
          <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">GTK<i class="material-icons right">arrow_drop_down</i></a></li>
      </ul>
 @endsection
@@ -51,7 +51,7 @@
             <div class="col m12">
                 <h4>{{$berita->judul_artikel}}</h4>
                 <img class="responsive-img" src="{{ asset($berita->gambar) }}">
-                <p style="font-size: 20px;" class="tgl"> <i class="tiny material-icons">access_time </i>{{$berita->tanggal}}</p>
+                <p style="font-size: 20px;" class="tgl"> <i class="tiny material-icons"> access_time </i><span style="margin-left:2px;"> {{$berita->tanggal}}</span> <i class="tiny material-icons"> label </i><span style="margin-left:2px;"> {{$berita->kategori}}</span></p>
                 <p>{{$berita->artikel}}</p>
                 <p style=" font-weight: bold; ">Di posting pada tanggal {{$berita->created_at}} </p>
             </div>

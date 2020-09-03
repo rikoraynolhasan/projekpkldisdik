@@ -94,8 +94,8 @@
                     <h4>{{$beritas->judul_artikel}}</h4>
                     <div class="card">
                       <div class="card-content">
-                        <p class="tgl"> <i class="tiny material-icons">access_time </i>{{$beritas->tanggal}}</p>
-                        <p class="isi" >{{$beritas->artikel}}</p>
+                        <p class="tgl"> <i class="tiny material-icons">access_time </i> {{$beritas->tanggal}} <i class="tiny material-icons" style="margin-left:5px;"> label</i> {{$beritas->kategori}} </p>
+                        <p class="isi">{{$beritas->artikel}}</p>
                       </div>
                       <div class="card-action">
                         <a href="berita/{{$beritas->id}}">Lanjutkan Baca...</a>
@@ -103,7 +103,7 @@
                     </div>
                   </div>
                 </li>
-                @endforeach                
+                @endforeach               
               </ul>
             </div>
             
@@ -121,7 +121,7 @@
                     </div>
                     <div class="card-stacked">
                       <div class="card-content">
-                        <p class="tgl"> <i class="tiny material-icons">access_time </i> {{$beritas->tanggal}}</p>
+                        <p class="tgl"> <i class="tiny material-icons">access_time </i>  {{$beritas->tanggal}} <i class="tiny material-icons" style="margin-left:5px;"> label</i> {{$beritas->kategori}} </p>
                         <p class="judulb">{{$beritas->judul_artikel}}</p>
                       </div>
                       <div class="card-action">
